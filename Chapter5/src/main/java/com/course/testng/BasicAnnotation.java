@@ -28,8 +28,6 @@ public class BasicAnnotation {
     @AfterMethod
     public void afterMethod() {
         System.out.println("after method");
-
-
     }
 
 }
