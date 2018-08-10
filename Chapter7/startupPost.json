@@ -6,7 +6,24 @@
       "method": "post"
     },
     "response": {
-      "text": "这是我的第一个mock的post请求"
+      "text": "this is my first mock post request"
     }
+  },
+  {
+    "description":"这是一个带参数的post请求",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "queries":{
+        "name":"huhansan",
+        "sex":"man"
+      }
+    },
+    "response":{
+      "text":"with param"
+
+
+    }
+
   }
 ]
