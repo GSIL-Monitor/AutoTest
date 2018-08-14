@@ -11,5 +11,27 @@
     "response":{
       "text":"must with cookies"
     }
+  },
+  {
+    "description":"这是一个带cookies信息的get请求",
+    "request":{
+      "uri":"get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"husansan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "huhansan":"success",
+        "status":"1"
+      }
+    }
   }
+
 ]
