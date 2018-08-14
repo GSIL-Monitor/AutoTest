@@ -14,7 +14,8 @@
     "request":{
       "uri":"/postwithparam",
       "method":"post",
-      "queries":{
+      //注意是forms，和get不同
+      "forms":{
         "name":"huhansan",
         "sex":"man"
       }
