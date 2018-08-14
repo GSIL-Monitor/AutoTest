@@ -4,7 +4,7 @@
     "request":{
       "uri":"get/with/cookies",
       "method":"get",
-      "cookes":{
+      "cookies":{
         "login":"true"
       }
     },
