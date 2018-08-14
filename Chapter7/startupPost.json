@@ -14,7 +14,7 @@
     "request":{
       "uri":"/postwithparam",
       "method":"post",
-      //注意是forms，和get不同
+      //注意是forms，和get不同,
       "forms":{
         "name":"huhansan",
         "sex":"man"
@@ -22,9 +22,6 @@
     },
     "response":{
       "text":"with param"
-
-
     }
-
   }
 ]
