@@ -29,7 +29,7 @@
   {
     "description":"这是一个带cookies信息的get请求",
     "request":{
-      "uri":"get/with/cookies",
+      "uri":"get/with/cookies1",
       "method":"get",
       "cookies":{
         "login":"true"
